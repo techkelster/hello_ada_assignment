@@ -20,10 +20,6 @@ This project is a task management application built with Next.js, NextAuth, JWT,
 - **Prisma**: An ORM for managing database interactions.
 - **SQLite**: A lightweight database used for local development.
 
-## Live Link
-
-Check out the live version of the project [here]().
-
 ## ScreenShots
 
 ![sign in page](./images/signInPage.png)
