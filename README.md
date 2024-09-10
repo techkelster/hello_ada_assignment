@@ -23,6 +23,7 @@ This project is a task management application built with Next.js, NextAuth, JWT,
 ## ScreenShots
 
 ![sign in page](./images/signInPage.png)
+![sign in page google](./images/googleSignIn.png)
 ![sign up page](./images/signUpPage.png)
 ![sign out page](./images/signOutPage.png)
 ![home page](./images/homePage.png)
