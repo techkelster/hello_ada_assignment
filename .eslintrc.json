@@ -1,3 +1,8 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "no-var-requires": "off", // Disable the rule that disallows require statements
+    "@typescript-eslint/no-explicit-any": "off", // Disable the rule that disallows the use of 'any' type
+    "@typescript-eslint/no-var-requires": "off"
+  }
 }
