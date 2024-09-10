@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a task management application built with Next.js, TypeScript, and Tailwind CSS. It allows users to manage tasks with features for user authentication and CRUD operations. The application uses Prisma and SQLite for database management.
+This project is a task management application built with Next.js, NextAuth, JWT, RTK Query, TypeScript, and Tailwind CSS. It allows users to manage tasks with features for user authentication and CRUD operations. The application uses Prisma and SQLite for database management.
 
 ## Features
 
@@ -13,6 +13,8 @@ This project is a task management application built with Next.js, TypeScript, an
 ## Technologies Used
 
 - **Next.js**: A React framework for server-rendered and statically generated applications.
+- **NextAuth**: for authentication and authorization
+- **RTK Query**: for effective fetching and api state managment
 - **TypeScript**: A superset of JavaScript that adds static types.
 - **Tailwind CSS**: A utility-first CSS framework for creating custom designs.
 - **Prisma**: An ORM for managing database interactions.
@@ -21,6 +23,15 @@ This project is a task management application built with Next.js, TypeScript, an
 ## Live Link
 
 Check out the live version of the project [here]().
+
+## ScreenShots
+
+![sign in page](./images/signInPage.png)
+![sign up page](./images/signUpPage.png)
+![sign out page](./images/signOutPage.png)
+![home page](./images/homePage.png)
+![added task](./images/addedTask.png)
+![edit Task](./images/editTask.png)
 
 ## Setup
 
