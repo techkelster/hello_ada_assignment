@@ -7,7 +7,7 @@ export async function middleware(req: NextRequest) {
   const token = await getToken({ req, secret: process.env.JWT_SECRET });
 
   // Define the protected routes you want to restrict
-  const protectedRoutes = ["/tasks"];
+  const protectedRoutes = ["/tasks/[id]"];
 
   // If user is not authenticated and tries to access a protected route
   if (
@@ -23,5 +23,5 @@ export async function middleware(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/tasks"], // Add the paths you want to protect here
+  matcher: ["/tasks/[id]"], // Add the paths you want to protect here
 };
